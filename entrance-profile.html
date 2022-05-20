@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;500&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Dily.ru</title>
+</head>
+<body>
+
+    <section class="profile">
+        <div class="container profile__container">
+            <div class="profile__body">
+                <div class="profile-inform">
+    <div class="profile-inform__title-block">
+        <img src="img/logos/logo-main-w.svg" alt="logo" class="profile-inform__main-img">
+        <h1 class="profile-inform__title">
+            Супер доска объявлений
+        </h1>
+    </div>
+    <ul class="profile-inform__list">
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _advert">
+                <use xlink:href="img/icons/icons.svg#icon-advert-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Размещайте объявления бесплатно
+            </span>
+        </li>
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _auction">
+                <use xlink:href="img/icons/icons.svg#icon-auction-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Продавайте на аукционе
+            </span>
+        </li>
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _repair">
+                <use xlink:href="img/icons/icons.svg#icon-repair-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Ремонтируйте свою технику
+            </span>
+        </li>
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _shop">
+                <use xlink:href="img/icons/icons.svg#icon-shop-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Откройте свой магазин
+            </span>
+        </li>
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _charity">
+                <use xlink:href="img/icons/icons.svg#icon-charity-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Помогайте нуждающимся
+            </span>
+        </li>
+    </ul>
+    <button class="profile-inform__btn-next">
+        Продолжить
+    </button>
+</div>
+                <div class="profile-content">
+                    <div class="profile-content__body">
+                        <div class="tab-item profile-content__body-block _active-tab">
+                            <h2 class="profile-content__title">
+                                Вход
+                            </h2>
+                            <form action="#" class="profile-content__form" id="entrance-profile">
+                                <div class="profile-content__form-block">
+                                    <p class="name-input">
+                                        E-mail
+                                    </p>
+                                    <input type="email" name="email-profile" placeholder="name@inbox.ru" class="input profile-content__form-input">
+                                </div>
+                                <div class="profile-content__form-block">
+                                    <p class="name-input">
+                                        Пароль
+                                    </p>
+                                    <label class="profile-content__label-password">
+                                        <input data-value-pass="check-pass1" type="password" name="password-profile" placeholder="********"
+                                            class="profile-content__form-input _password" id="input-password">
+                                        <div class="profile-content__label-password-nav">
+                                            <button data-check-pass="check-pass1" type="button" class="profile-content__check-password" id="check-password">
+                                                <svg class="icon-eye">
+                                                    <use xlink:href="img/icons/icons.svg#icon-eye"></use>
+                                                </svg>
+                                            </button>
+                                            <div class="profile-content__password-hint">
+                                                <div data-elem-hover="password-hint" class="profile-content__password-hint-el _hover-element"></div>
+                                                <div data-spoller-hover="password-hint" class="profile-content__password-hint-item _hover-spoller">
+                                                    <p class="profile-content__content">
+                                                        Пароль должен состоять из 8 цифр и латинских строчных и заглавных символов
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <button type="submit" class="profile-content__form-btn">
+                                    Войти
+                                </button>
+                            </form>
+                            <button data-tab-btn="find-password" class="profile-content__find-password" id="btn-tab">
+                                Забыли пароль?
+                            </button>
+                        </div>
+                        <div data-tab="find-password" class="tab-item porfile-content__body-block _find-password">
+                            <h2 class="profile-content__title">
+                                Забыли пароль?
+                            </h2>
+                            <p class="profile-content__content">
+                                На ваш e-mail будут высланы инструкции по восстановлению паролю
+                            </p>
+                            <form action="#" class="profile-content__form" id="find-password-find">
+                                <div class="profile-content__form-block">
+                                    <p class="name-input">
+                                        E-mail
+                                    </p>
+                                    <input type="email" name="email-profile" placeholder="name@inbox.ru" class="input profile-content__form-input">
+                                </div>
+                                <button type="submit" class="profile-content__form-btn">
+                                    Войти
+                                </button>
+                            </form>
+                        </div>
+                        <div class="profile-content__entrance-social-network">
+                            <p class="profile-content__content">
+                                или продолжить через соцсети
+                            </p>
+                            <div class="profile-content__social-network">
+                                <button class="profile-content__btn-social-network _fb"></button>
+                                <button class="profile-content__btn-social-network _vk"></button>
+                                <button class="profile-content__btn-social-network _ok"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <script src="js/app.min.js"></script>
+</body>
+</html>

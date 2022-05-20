@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;500&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Dily.ru</title>
+</head>
+<body>
+
+    <section class="profile">
+        <div class="container profile__container">
+            <div class="profile__body">
+                <div class="profile-inform">
+    <div class="profile-inform__title-block">
+        <img src="img/logos/logo-main-w.svg" alt="logo" class="profile-inform__main-img">
+        <h1 class="profile-inform__title">
+            Супер доска объявлений
+        </h1>
+    </div>
+    <ul class="profile-inform__list">
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _advert">
+                <use xlink:href="img/icons/icons.svg#icon-advert-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Размещайте объявления бесплатно
+            </span>
+        </li>
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _auction">
+                <use xlink:href="img/icons/icons.svg#icon-auction-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Продавайте на аукционе
+            </span>
+        </li>
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _repair">
+                <use xlink:href="img/icons/icons.svg#icon-repair-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Ремонтируйте свою технику
+            </span>
+        </li>
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _shop">
+                <use xlink:href="img/icons/icons.svg#icon-shop-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Откройте свой магазин
+            </span>
+        </li>
+        <li class="profile-inform__list-item">
+            <svg class="profile-inform__list-icon _charity">
+                <use xlink:href="img/icons/icons.svg#icon-charity-w"></use>
+            </svg>
+            <span class="profile-inform__list-content">
+                Помогайте нуждающимся
+            </span>
+        </li>
+    </ul>
+    <button class="profile-inform__btn-next">
+        Продолжить
+    </button>
+</div>
+                <div class="profile-content">
+                    <div class="profile-content__body">
+                        <h2 class="profile-content__title">
+                            Регистрация
+                        </h2>
+                        <form action="#" class="profile-content__form" id="reg-profile-form">
+                            <div class="profile-content__form-avatar">
+                                <div class="profile-content__form-avatar--image">
+                                    <input data-form-image="form-load-img1" type="file" accept=".jpg, .png, .gif" name="input-img-advert"
+                                        class="input-img__add-advert" id="form-img">
+                                    <div data-block-image="form-load-img1" class="profile-content__form-avatar--container" id="perview-ph">
+                                        <span class="profile-content__form-avatar--content">
+                                            ИП
+                                        </span>
+                                    </div>
+                                </div>
+                                <h5 class="profile-content__form-avatar--title">
+                                    Иван Петров
+                                </h5>
+                            </div>
+                            <div class="profile-content__form-block">
+                                <p class="name-input">
+                                    Ваше имя <span class="star-text">*</span>
+                                </p>
+                                <input type="text" name="name-profile-reg" placeholder="Иван" class="input profile-content__form-input">
+                            </div>
+                            <div class="profile-content__form-block">
+                                <p class="name-input">
+                                    Ваша фамилия <span class="star-text">*</span>
+                                </p>
+                                <input type="text" name="name-profile-reg" placeholder="Иван" class="input profile-content__form-input">
+                            </div>
+                            <div class="profile-content__form-block">
+                                <p class="name-input">
+                                    E-mail <span class="star-text">*</span>
+                                </p>
+                                <input type="email" name="email-profile" placeholder="name@inbox.ru" class="input profile-content__form-input">
+                            </div>
+                            <div class="profile-content__form-block">
+                                <p class="name-input">
+                                    Пароль <span class="star-text">*</span>
+                                </p>
+                                <label class="profile-content__label-password" id="label-pass1">
+                                    <input data-value-pass="check-pass1" type="password" name="password-profile" placeholder="********" class="profile-content__form-input _password" id="profile-password1">
+                                    <div class="profile-content__label-password-nav">
+                                        <button data-check-pass="check-pass1" type="button" class="profile-content__check-password" id="check-password">
+                                            <svg class="icon-eye">
+                                                <use xlink:href="img/icons/icons.svg#icon-eye"></use>
+                                            </svg>
+                                        </button>
+                                        <div class="profile-content__password-hint">
+                                            <div data-elem-hover="password-hint" class="profile-content__password-hint-el _hover-element"></div>
+                                            <div data-spoller-hover="password-hint" class="profile-content__password-hint-item _hover-spoller">
+                                                <p class="profile-content__content">
+                                                    Пароль должен состоять из 8 цифр и латинских строчных и заглавных символов
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="profile-content__form-block">
+                                <p class="name-input">
+                                    Пароль <span class="star-text">*</span>
+                                </p>
+                                <label class="profile-content__label-password" id="label-pass2">
+                                    <input data-value-pass="check-pass2" type="password" name="password-profile" placeholder="********" class="profile-content__form-input _password" id="profile-password2">
+                                    <div class="profile-content__label-password-nav">
+                                        <button data-check-pass="check-pass2" type="button" class="profile-content__check-password" id="check-password">
+                                            <svg class="icon-eye">
+                                                <use xlink:href="img/icons/icons.svg#icon-eye"></use>
+                                            </svg>
+                                        </button>
+                                        <div class="profile-content__password-hint">
+                                            <div data-elem-hover="password-hint2" class="profile-content__password-hint-el _hover-element"></div>
+                                            <div data-spoller-hover="password-hint2" class="profile-content__password-hint-item _hover-spoller">
+                                                <p class="profile-content__content">
+                                                    Пароль должен состоять из 8 цифр и латинских строчных и заглавных символов
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                            <button type="submit" class="profile-content__form-btn">
+                                Зарегестрироваться
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <script src="js/app.min.js"></script>
+</body>
+</html>
